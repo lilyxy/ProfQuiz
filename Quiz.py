@@ -12,6 +12,8 @@ answers = list(i.split("\t") for i in raw[1:n+1])
 data = list(i.split("\t") for i in raw[n+1:])
 responses = []
 
+print("Which UW Math Prof are you?\n\n")
+
 for i in range(n):
     print(str(i+1)+".", quests[i])
     print()
